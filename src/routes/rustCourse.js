@@ -7,7 +7,7 @@ const router = Router()
 
 router.get('/:episode/:topic', async (req, res) => {
   const { episode, topic } = req.params
-  const assets = ''
+  const assets = `${process.env.GITHUB_RAW_ASSETS}/rust-course`
 
   await nodeHtmlToImage({
     output: path.join(__dirname, '..', 'out', 'banner.png'),

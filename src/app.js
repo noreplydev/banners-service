@@ -24,6 +24,4 @@ app.get('/', (req, res) => {
 
 app.use('/rust-course', rustCourse)
 
-app.listen(process.env.PORT, () => {
-  console.log('Service running on http://localhost:3000')
-})
+app.listen(process.env.PORT)
