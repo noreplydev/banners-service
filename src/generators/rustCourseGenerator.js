@@ -101,7 +101,7 @@ export default function rustCourseGenerator (episode, topic, assets) {
           }
           .episode {
             position: absolute;
-            bottom: 30px;
+            top: 30px;
             right: 30px;
             font-size: 6.3rem;
             font-weight: 600;
